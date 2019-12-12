@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f42bb1c-5e1b-4951-aba9-9e4f13106890" name="Default Changelist" comment="" />
+    <list default="true" id="1f42bb1c-5e1b-4951-aba9-9e4f13106890" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/app/countries.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/app/earthquakes_day.geojson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/app/nouislider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/app/nouislider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Ireland_shapefile/.ie_1km.dbf.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Ireland_shapefile/.ie_1km.shp.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Ireland_shapefile/.ie_1km.shx.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/data/.TM_WORLD_BORDERS-0.3.shp.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/data/.TM_WORLD_BORDERS-0.3.zip.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/app/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/base.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +32,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1U0rKCib1pjqM2MDzSDAXNwt3Av" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/app" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -33,13 +51,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/app" />
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates/app" />
       <recent name="$PROJECT_DIR$/templates/app/images" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app" />
-      <recent name="$PROJECT_DIR$/static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -78,10 +97,10 @@
     <configuration name="base.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/django_world_map/templates/app/base.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="base.old.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/django_world_map/templates/app/base.old.html" useBuiltInWebServerPort="true">
+    <configuration name="base.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/django_world_map/templates/app/base.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/django_world_map/templates/app/index.html" useBuiltInWebServerPort="true">
+    <configuration name="base.old.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/django_world_map/templates/app/base.old.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="django_world_map" type="Python.DjangoServer" factoryName="Django server">
@@ -112,7 +131,7 @@
       <list>
         <item itemvalue="JavaScript Debug.base.html" />
         <item itemvalue="JavaScript Debug.base.old.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.base.html" />
         <item itemvalue="Django tests.Test: templates.app" />
       </list>
     </recent_temporary>
@@ -151,12 +170,23 @@
       <workItem from="1576092431713" duration="148000" />
       <workItem from="1576113180977" duration="171000" />
       <workItem from="1576114658345" duration="142000" />
-      <workItem from="1576156724566" duration="717000" />
+      <workItem from="1576156724566" duration="7864000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/django_world_map$Test__templates_app.coverage" NAME="Test: templates.app Coverage Results" MODIFIED="1575816469383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
