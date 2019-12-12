@@ -1,0 +1,152 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "1247710037330c2b932b98910ef363eb7679b850b86fe477f1dda497db4be41a"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.7"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "django": {
+            "hashes": [
+                "sha256:16040e1288c6c9f68c6da2fe75ebde83c0a158f6f5d54f4c5177b0c1478c5b86",
+                "sha256:89c2007ca4fa5b351a51a279eccff298520783b713bf28efb89dfb81c80ea49b"
+            ],
+            "index": "pypi",
+            "version": "==2.2.7"
+        },
+        "django-bootstrap3": {
+            "hashes": [
+                "sha256:c417b25328fb8e97cb89e1f07d35632602d702e6eaca863328e833939d0d1743"
+            ],
+            "index": "pypi",
+            "version": "==11.1.0"
+        },
+        "django-cors-headers": {
+            "hashes": [
+                "sha256:5762ec9c2d59f38c76828dc1d4308baca4bc0d3e1d6f217683e7a24a1c4611a3",
+                "sha256:ee02f4b699e9b6645602a46d0adb430ee940a1bf8df64f77e516f8d7711fee60"
+            ],
+            "index": "pypi",
+            "version": "==3.1.1"
+        },
+        "django-crispy-forms": {
+            "hashes": [
+                "sha256:0320b303420fec9ce94e045321dfd180ca0e31e0336211c5d30ad0bda5ebbb5d",
+                "sha256:22b6634e3a6316623e4eb062527fe5be5f97ea8b83020c65bcd8fac4747807b5"
+            ],
+            "index": "pypi",
+            "version": "==1.8.0"
+        },
+        "django-extensions": {
+            "hashes": [
+                "sha256:a9db7c56a556d244184f589f2437b4228de86ee45e5ebb837fb20c6d54e95ea5",
+                "sha256:b58320d3fe3d6ae7d1d8e38959713fa92272f4921e662d689058d942a5b444f7"
+            ],
+            "index": "pypi",
+            "version": "==2.2.5"
+        },
+        "django-jquery": {
+            "hashes": [
+                "sha256:414ac1083708ac71cc771612e7287702c939d06cd357fd53bb1271a4f6255115",
+                "sha256:e7e2ac14234bac26be937e448d94efd6d37ee2f3cdbaa2def3c8e74c2afb2b9a"
+            ],
+            "index": "pypi",
+            "version": "==3.1.0"
+        },
+        "django-leaflet": {
+            "hashes": [
+                "sha256:73a09861a0f9de22dabbc25f5bab0c4246ee9831d315c04aa61ced47efc38084"
+            ],
+            "index": "pypi",
+            "version": "==0.25.0"
+        },
+        "django-pwa": {
+            "hashes": [
+                "sha256:50384d068e16e9b1c45c591603cbf5cb8e9fc01cb70147a6ada2858c733d60be",
+                "sha256:ef093fda3028bdc99853cdd09844914fc223e64b0a98be4d4da2f44ba72b2761"
+            ],
+            "index": "pypi",
+            "version": "==1.0.5"
+        },
+        "overpy": {
+            "hashes": [
+                "sha256:6e5bfcd9368f0c33a5d7615b18dbcac18444157f447639287c6743aa2de8964d"
+            ],
+            "index": "pypi",
+            "version": "==0.4"
+        },
+        "psycopg2": {
+            "hashes": [
+                "sha256:4212ca404c4445dc5746c0d68db27d2cbfb87b523fe233dc84ecd24062e35677",
+                "sha256:47fc642bf6f427805daf52d6e52619fe0637648fe27017062d898f3bf891419d",
+                "sha256:72772181d9bad1fa349792a1e7384dde56742c14af2b9986013eb94a240f005b",
+                "sha256:8396be6e5ff844282d4d49b81631772f80dabae5658d432202faf101f5283b7c",
+                "sha256:893c11064b347b24ecdd277a094413e1954f8a4e8cdaf7ffbe7ca3db87c103f0",
+                "sha256:92a07dfd4d7c325dd177548c4134052d4842222833576c8391aab6f74038fc3f",
+                "sha256:965c4c93e33e6984d8031f74e51227bd755376a9df6993774fd5b6fb3288b1f4",
+                "sha256:9ab75e0b2820880ae24b7136c4d230383e07db014456a476d096591172569c38",
+                "sha256:b0845e3bdd4aa18dc2f9b6fb78fbd3d9d371ad167fd6d1b7ad01c0a6cdad4fc6",
+                "sha256:dca2d7203f0dfce8ea4b3efd668f8ea65cd2b35112638e488a4c12594015f67b",
+                "sha256:ed686e5926929887e2c7ae0a700e32c6129abb798b4ad2b846e933de21508151",
+                "sha256:ef6df7e14698e79c59c7ee7cf94cd62e5b869db369ed4b1b8f7b729ea825712a",
+                "sha256:f898e5cc0a662a9e12bde6f931263a1bbd350cfb18e1d5336a12927851825bb6"
+            ],
+            "index": "pypi",
+            "version": "==2.8.4"
+        },
+        "pydot": {
+            "hashes": [
+                "sha256:67be714300c78fda5fd52f79ec994039e3f76f074948c67b5ff539b433ad354f",
+                "sha256:d49c9d4dd1913beec2a997f831543c8cbd53e535b1a739e921642fe416235f01"
+            ],
+            "index": "pypi",
+            "version": "==1.4.1"
+        },
+        "pyparsing": {
+            "hashes": [
+                "sha256:20f995ecd72f2a1f4bf6b072b63b22e2eb457836601e76d6e5dfcd75436acc1f",
+                "sha256:4ca62001be367f01bd3e92ecbb79070272a9d4964dce6a48a82ff0b8bc7e683a"
+            ],
+            "version": "==2.4.5"
+        },
+        "pytz": {
+            "hashes": [
+                "sha256:1c557d7d0e871de1f5ccd5833f60fb2550652da6be2693c1e02300743d21500d",
+                "sha256:b02c06db6cf09c12dd25137e563b31700d3b80fcc4ad23abb7a315f2789819be"
+            ],
+            "version": "==2019.3"
+        },
+        "six": {
+            "hashes": [
+                "sha256:1f1b7d42e254082a9db6279deae68afb421ceba6158efa6131de7b3003ee93fd",
+                "sha256:30f610279e8b2578cab6db20741130331735c781b56053c59c4076da27f06b66"
+            ],
+            "version": "==1.13.0"
+        },
+        "sqlparse": {
+            "hashes": [
+                "sha256:40afe6b8d4b1117e7dff5504d7a8ce07d9a1b15aeeade8a2d10f130a834f8177",
+                "sha256:7c3dca29c022744e95b547e867cee89f4fce4373f3549ccd8797d8eb52cdb873"
+            ],
+            "version": "==0.3.0"
+        },
+        "uwsgi": {
+            "hashes": [
+                "sha256:4972ac538800fb2d421027f49b4a1869b66048839507ccf0aa2fda792d99f583"
+            ],
+            "index": "pypi",
+            "version": "==2.0.18"
+        }
+    },
+    "develop": {}
+}
