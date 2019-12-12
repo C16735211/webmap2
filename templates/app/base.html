@@ -117,7 +117,7 @@
 
 		var map = L.map('mapid', {
 			zoomControl : false
-		}).setView([53.3498, -6.2603], 11);
+		}).setView([53.3498, -6.2603], 9);
 
 		/*
 		L.tileLayer(L.tileLayer('https://{s}.tile.thunderforest.com/transport-dark/{z}/{x}/{y}.png?', {
@@ -171,6 +171,88 @@
 			iconAnchor: [16,37],
 			popupAnchor: [0,-30]
 		});
+
+		var geojson =
+        {"type": "FeatureCollection","features": [{"type": "Feature","properties": {},"geometry": {"type": "LineString","coordinates":
+                            [[-6.2505340576171875,53.358543048440765],[-6.288299560546875,53.35362523805683],[-6.28692626953125,53.33374330585105],
+                            [-6.257743835449218,53.32328620004726],[-6.227874755859375,53.33640843268809],[-6.249847412109375,53.35751855140597],
+                                [-6.260490417480469,53.34768212671975]]}}]};
+
+	var marker1 = L.marker([53.358543048440765, -6.2505340576171875], {
+	    icon: greenIcon
+    });
+	var marker2 = L.marker([53.35362523805683, -6.288299560546875], {
+	    icon: greenIcon
+    });
+	var marker3 = L.marker([53.33374330585105, -6.28692626953125], {
+	    icon: greenIcon
+    });
+
+	//marker1.addTo(mymap);
+	//marker2.addTo(mymap);
+
+    var featureGroup = L.featureGroup([marker1,marker2]).bindPopup('Hola').addTo(map);
+
+    map.fitBounds(featureGroup.getBounds(), {
+       padding: [10,10]
+    });
+
+    map.on('moveend',function(e) {
+        console.log(map.getCenter());
+        $('#current_center').val(map.getCenter().lat+','+map.getCenter().lng);
+    });
+
+    $(document).on('click','#toggleLayer',function() {
+       if(map.hasLayer(featureGroup)) {
+           map.removeLayer(featureGroup);
+       } else {
+           featureGroup.addTo(map);
+       }
+    });
+
+    // locate the devices current location
+
+    map.locate({setView: true, maxZoom: 16});
+
+    function onLocationFound(e) {
+    var radius = e.accuracy;
+
+    L.marker(e.latlng).addTo(map)
+        .bindPopup("You are within " + radius + " meters from this point").openPopup();
+
+    L.circle(e.latlng, radius).addTo(map);
+}
+
+map.on('locationfound', onLocationFound);
+
+    function onLocationError(e) {
+    alert(e.message);
+}
+
+map.on('locationerror', onLocationError);
+
+    	// icon with markers
+	L.marker([53.3193, -6.2320], {icon:greenIcon}).addTo(map).bindPopup('Park!!');
+	L.marker([53.33861, -6.26639], {icon:blackIcon}).addTo(map).bindPopup(popup);
+	//L.marker([53.3289, -6.2305], {icon:greenIcon}).addTo(map).bindPopup('Ballsbridge!!');
+
+	var popup2 = L.popup ({
+        maxWidth : 400
+    })
+        .setLatLng([53.3193, -6.2320])
+        .setContent('<img src="https://via.placeholder.com/100x50"  />')
+        .openOn(map);
+
+	var popup = L.popup();
+
+	function onMapClick(e) {
+		popup
+			.setLatLng(e.latlng)
+			.setContent("You clicked the map at " + e.latlng.toString())
+			.openOn(map);
+	}
+
+	map.on('click', onMapClick);
 
 		var countriesGeoJSON = false;
 		var earthquakesGeoJSON = false;
