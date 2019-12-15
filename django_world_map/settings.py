@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'django.contrib.gis',
     'app.apps.AppConfig',
     'leaflet',
+    'pwa',
 ]
 
 MIDDLEWARE = [
@@ -145,7 +146,24 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 
+PWA_SERVICE_WORKER_PATH = f'{STATICFILES_DIRS}static/app/js/serviceworker.js';
+
 CORS_ORIGIN_ALLOW_ALL = True
+
+PWA_APP_NAME = 'django_world_map'
+PWA_APP_DESCRIPTION = "Show current location"
+PWA_APP_THEME_COLOR = '#0A0302'
+PWA_APP_BACKGROUND_COLOR = '#ffffff'
+PWA_APP_DISPLAY = 'standalone'
+PWA_APP_SCOPE = '/'
+PWA_APP_ORIENTATION = 'any'
+PWA_APP_START_URL = '/'
+PWA_APP_ICONS = [
+    {
+        'src': '/static/images/map-icon.png',
+        'sizes': '160x160'
+    }
+]
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES':[
@@ -165,6 +183,7 @@ LEAFLET_CONFIG = {
     'MIN_ZOOM': 2,
     'SCALE': 'both',
     'ATTRIBUTION_PREFIX': 'C16735211 - Inspired by Life in GIS',
+    'TILES': [('OSM','https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{"useCache": True, "crossOrigin": True})],
     'PLUGINS': {
         'PouchDBCached': {
             'js': 'https://unpkg.com/leaflet.tilelayer.pouchdbcached@latest/L.TileLayer.PouchDBCached.js',
