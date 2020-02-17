@@ -100,12 +100,13 @@
 	<div id="slider"></div>
 </div>
 
+
 <div id="side-bar" class="col-md-3">
+    <button id='btnLocate' class='btn btn-primary btn-block'>Locate</button>
+    <button id='btnZocalo' class='btn btn-primary btn-block'>ZoomToZocalo</button>
     <h4>Zoom Level: <span id='zoom-level'></span></h4>
-     <h4>Map Center: <span id='map-center'></span></h4>
-     <h4>Mouse Location: <span id='mouse-location'></span></h4>
-
-
+    <h4>Map Center: <span id='map-center'></span></h4>
+    <h4>Mouse Location: <span id='mouse-location'></span></h4>
 </div>
 
 <div id="mapid" style="width:100%;"></div>
@@ -128,10 +129,12 @@
 			}
 		});
 
+		var popZocalo;
 		var mrkCurrentLocation;
 		var map = L.map('mapid', {
 			zoomControl : false
 		}).setView([53.3498, -6.2603], 17);
+		var ctlZoom;
 
 		/*
 		L.tileLayer(L.tileLayer('https://{s}.tile.thunderforest.com/transport-dark/{z}/{x}/{y}.png?', {
@@ -165,7 +168,7 @@
         ]).addTo(map).bindPopup("Dublin City Centre - Polygon.");
 
 		L.marker([53.3498, -6.2603]).addTo(map).bindPopup("Hi, from Dublin");
-		L.marker([53.3419, -6.2267]).addTo(map).bindPopup("Hi, from Pearse Street, Dublin");
+		L.marker([53.3419, -6.2267]).addTo(map).bindPopup("Hi, from Ringsend, Dublin");
 		L.marker([53.3289, -6.2305]).addTo(map).bindPopup("Donnybrook Dublin 4");
 
 		var popup = L.popup();
@@ -268,9 +271,20 @@ map.on('locationerror', onLocationError);
 			.openOn(map);
 	}
 
+	// to re-direct the map to the current location every
+    // 5 seconds - really useful for mobile applications e.g. smart-phones
+    /*
 	setInterval(function () {
         map.locate();
     }, 5000)
+    */
+
+    ctlZoom = L.control.zoom({zoomInText:'In', zoomOutText:'Out'});
+    ctlZoom.addTo(map);
+
+    popZocalo = L.popup();
+    popZocalo.setLatLng([53.3419, -6.2267]);
+    popZocalo.setContent("<h3>Zocalo - Ringsend - Dublin 4</h3><img src='84978.png' height='160px' width='160px'>");
 
 	map.on('contextmenu', function (e) {
 	    var dtCurrentTime = new Date();
@@ -282,12 +296,13 @@ map.on('locationerror', onLocationError);
 	        map.locate();
         }
     });
+
 	map.on('locationfound', function (e) {
         console.log(e);
         if(mrkCurrentLocation) {
             mrkCurrentLocation.remove();
         }
-        mrkCurrentLocation = L.circleMarker(e.latlng,
+        mrkCurrentLocation = L.circle(e.latlng,
             {radius:e.accuracy/2}).addTo(map);
         map.setView(e.latlng, 14);
     });
@@ -302,12 +317,34 @@ map.on('locationerror', onLocationError);
     });
 
 	map.on('moveend', function () {
-        $("#map-center").html(map.getCenter().toString());
+        $("#map-center").html(LatLngToArrayString(map.getCenter()));
     });
 
+	/*
 	map.on('mousemove', function (e) {
         $("#mouse-location").html(e.latlng().toString());
     });
+	*/
+
+	map.on('mousemove', function (e) {
+        $("#mouse-location").html(LatLngToArrayString(e.latlng));
+    });
+
+	function LatLngToArrayString(ll) {
+	    console.log(ll);
+	    return "["+ll.lat.toFixed(5)+", "+ll.lng.toFixed(5)+"]";
+    }
+
+    $("#btnLocate").click(function () {
+        map.locate();
+    });
+
+	$("#btnZocalo").click(function () {
+        map.setView([53.3419, -6.2267], 19);
+        map.openPopup(popZocalo);
+    });
+
+
 
 
 	///map.on('click', onMapClick);

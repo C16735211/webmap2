@@ -2,14 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f42bb1c-5e1b-4951-aba9-9e4f13106890" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/assets/map-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/app/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/app/serviceworker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/app/zocalo 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/app/zocalo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/django_world_map.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django_world_map.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Ireland_shapefile/ie_1km.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Ireland_shapefile/ie_1km.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/data/TM_WORLD_BORDERS-0.3.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/data/TM_WORLD_BORDERS-0.3.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_world_map/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_world_map/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/app/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app/nouislider.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/nouislider.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,9 +36,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -33,12 +46,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1U0rKCib1pjqM2MDzSDAXNwt3Av" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/app" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,15 +64,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/app" />
+      <recent name="$PROJECT_DIR$/static/assets" />
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates/app" />
       <recent name="$PROJECT_DIR$/templates/app/images" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/assets" />
-      <recent name="$PROJECT_DIR$/templates/app" />
-      <recent name="$PROJECT_DIR$/app" />
-      <recent name="$PROJECT_DIR$/static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -71,7 +87,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.base.html">
+  <component name="RunManager" selected="JavaScript Debug.register.html">
     <configuration name="Test: templates.app" type="DjangoTestsConfigurationType" temporary="true">
       <module name="django_world_map" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,6 +117,9 @@
     <configuration name="base.old.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/django_world_map/templates/app/base.old.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="register.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/django_world_map/users/templates/users/register.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="django_world_map" type="Python.DjangoServer" factoryName="Django server">
       <module name="django_world_map" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,6 +146,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.register.html" />
         <item itemvalue="JavaScript Debug.base.html" />
         <item itemvalue="JavaScript Debug.base.old.html" />
         <item itemvalue="JavaScript Debug.base.html" />
@@ -179,7 +199,16 @@
       <workItem from="1576242276931" duration="439000" />
       <workItem from="1576263249270" duration="180000" />
       <workItem from="1576409490235" duration="308000" />
-      <workItem from="1576433602496" duration="6030000" />
+      <workItem from="1576433602496" duration="8667000" />
+      <workItem from="1576497816215" duration="181000" />
+      <workItem from="1576522369903" duration="1198000" />
+      <workItem from="1576578767876" duration="162000" />
+      <workItem from="1576580765198" duration="197000" />
+      <workItem from="1579355171695" duration="64000" />
+      <workItem from="1579531332843" duration="729000" />
+      <workItem from="1579613629576" duration="5382000" />
+      <workItem from="1579787191240" duration="164000" />
+      <workItem from="1581938053011" duration="3119000" />
     </task>
     <servers />
   </component>
@@ -198,6 +227,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/django_world_map$Test__templates_app.coverage" NAME="Test: templates.app Coverage Results" MODIFIED="1575816469383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
