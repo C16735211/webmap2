@@ -9,6 +9,7 @@ app_name = 'app'
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('blog/', include('blog.urls')),
     path('register/', user_views.register, name='register'),
     url(r'^$', views.MainPage.as_view(), name='home'),
     url(r'^incidences/$', views.incidences_datasets, name='incidences'),
