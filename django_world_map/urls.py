@@ -15,8 +15,10 @@ Including another URLconf
 """
 from django.contrib.gis import admin
 from django.conf.urls import url, include
+from users import views as user_views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url('register/', user_views.register, name='register'),
     url(r'^', include(('app.urls'), namespace='app')),
 ]
