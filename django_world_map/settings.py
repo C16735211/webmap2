@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.admin',
     'blog.apps.BlogConfig',
     'users.apps.UsersConfig',
+    'crispy_forms',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -193,6 +194,8 @@ LEAFLET_CONFIG = {
         },
     }
 }
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 
 
