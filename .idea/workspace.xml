@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f42bb1c-5e1b-4951-aba9-9e4f13106890" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/profile_pics/D95039B9-4829-47FB-B126-0995D17BCEFB_4_5005_c.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/profile_pics/DD6FC627-7184-4248-A8A8-34BB38A6E9D1_4_5005_c.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_world_map/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_world_map/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_world_map/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_world_map/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -198,7 +200,7 @@
       <workItem from="1582199862761" duration="808000" />
       <workItem from="1582224561851" duration="498000" />
       <workItem from="1583230349593" duration="2262000" />
-      <workItem from="1583251663901" duration="3976000" />
+      <workItem from="1583251663901" duration="5796000" />
     </task>
     <servers />
   </component>
