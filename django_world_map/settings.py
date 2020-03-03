@@ -149,7 +149,7 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 
-PWA_SERVICE_WORKER_PATH = f'{STATICFILES_DIRS}static/app/js/serviceworker.js';
+PWA_SERVICE_WORKER_PATH = f'{STATICFILES_DIRS}static/app/js/serviceworker.js'
 
 CORS_ORIGIN_ALLOW_ALL = True
 
@@ -169,10 +169,10 @@ PWA_APP_ICONS = [
 ]
 
 REST_FRAMEWORK = {
-    'DEFAULT_PERMISSION_CLASSES':[
+    'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly',
     ],
-    'DEFAULT_AUTHENTICATION_CLASSES':[
+    'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.BasicAuthentication',
         'rest_framework.authentication.SessionAuthentication',
         'rest_framework.authentication.TokenAuthentication',
