@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f42bb1c-5e1b-4951-aba9-9e4f13106890" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/media/profile_pics/D95039B9-4829-47FB-B126-0995D17BCEFB_4_5005_c_linhXed.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/profile_pics/DD6FC627-7184-4248-A8A8-34BB38A6E9D1_4_5005_c_JbOYlYq.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/profile_pics/DD6FC627-7184-4248-A8A8-34BB38A6E9D1_4_5005_c_TF231Gl.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/profile_pics/DD6FC627-7184-4248-A8A8-34BB38A6E9D1_4_5005_c_yvjkrIH.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
     </list>
@@ -211,7 +216,7 @@
       <workItem from="1584443573467" duration="2994000" />
       <workItem from="1584454937767" duration="10692000" />
       <workItem from="1584535474980" duration="7552000" />
-      <workItem from="1584616769994" duration="11163000" />
+      <workItem from="1584616769994" duration="11848000" />
     </task>
     <servers />
   </component>
