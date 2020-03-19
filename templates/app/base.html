@@ -133,7 +133,7 @@
 		var mrkCurrentLocation;
 		var map = L.map('mapid', {
 			zoomControl : false
-		}).setView([53.3498, -6.2603], 18);
+		}).setView([53.3498, -6.2603], 10);
 		var ctlZoom;
 
 		/*
@@ -304,7 +304,7 @@ map.on('locationerror', onLocationError);
         }
         mrkCurrentLocation = L.circle(e.latlng,
             {radius:e.accuracy/2}).addTo(map);
-        map.setView(e.latlng, 14);
+        map.setView(e.latlng, 10);
     });
 
 	map.on('locationerror', function (e) {

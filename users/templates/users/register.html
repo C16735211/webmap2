@@ -3,9 +3,9 @@
 {% block content %}
     <div class="content-section">
         <form method="POST">
-            {% csrf_token %}
+            {% csrf_token %} <!-- hidden tag CRSF token or cross-site request forgery protects against certain attacks -->
             <fieldset class="form-group">
-                <legend class="border-bottom mb-4">Join Today</legend>
+                <legend class="border-bottom mb-4">Set up an Account Today</legend>
                 {{ form|crispy }}
             </fieldset>
             <div class="form-group">
