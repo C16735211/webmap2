@@ -1,3 +1,4 @@
+PIL
 djangorestframework
 -i https://pypi.org/simple
 django-bootstrap3==11.1.0
