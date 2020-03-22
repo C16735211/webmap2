@@ -23,7 +23,7 @@ class PostListView(ListView):
     template_name = 'blog/home.html'
     context_object_name = 'posts'
     ordering = ['-date_posted']  # post the latest posts in the blog
-    paginate_by = 3
+    paginate_by = 10
 
 
 class UserPostListView(ListView):
