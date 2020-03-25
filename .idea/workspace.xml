@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1f42bb1c-5e1b-4951-aba9-9e4f13106890" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/about.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,10 +18,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="Python Script" />
         <option value="package.json" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -216,7 +216,8 @@
       <workItem from="1584888815096" duration="1064000" />
       <workItem from="1584896974969" duration="695000" />
       <workItem from="1584910220336" duration="84000" />
-      <workItem from="1584984335434" duration="3177000" />
+      <workItem from="1584984335434" duration="4373000" />
+      <workItem from="1585057343083" duration="4054000" />
     </task>
     <servers />
   </component>
