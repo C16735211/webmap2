@@ -12,8 +12,8 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 
 import os
 
-
 from . import secrets
+
 SECRETS = secrets.get_secrets()
 secrets.insert_domainname_in_conf(SECRETS["NGINX_CONF"], SECRETS["MY_DOMAIN_NAME"])
 secrets.insert_imagename_in_compose(SECRETS["DOCKER_COMPOSE_FILE"], SECRETS["DOCKER_IMAGE"])
@@ -38,7 +38,6 @@ SECRET_KEY = SECRETS['SECRET_KEY']
 DEBUG = False
 
 ALLOWED_HOSTS = ['*', ]
-
 
 # Application definition
 
@@ -127,7 +126,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
@@ -141,12 +139,10 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
-
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
@@ -192,7 +188,7 @@ LEAFLET_CONFIG = {
     'MIN_ZOOM': 2,
     'SCALE': 'both',
     'ATTRIBUTION_PREFIX': 'C16735211 - Inspired by Life in GIS',
-    'TILES': [('OSM','https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{"useCache": True, "crossOrigin": True})],
+    'TILES': [('OSM', 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {"useCache": True, "crossOrigin": True})],
     'PLUGINS': {
         'PouchDBCached': {
             'js': 'https://unpkg.com/leaflet.tilelayer.pouchdbcached@latest/L.TileLayer.PouchDBCached.js',

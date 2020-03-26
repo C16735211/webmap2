@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f42bb1c-5e1b-4951-aba9-9e4f13106890" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/burger.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/tree.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/blog/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_world_map/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_world_map/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -220,7 +219,8 @@
       <workItem from="1584910220336" duration="84000" />
       <workItem from="1584984335434" duration="4373000" />
       <workItem from="1585057343083" duration="4179000" />
-      <workItem from="1585158862423" duration="6107000" />
+      <workItem from="1585158862423" duration="6166000" />
+      <workItem from="1585218935323" duration="6524000" />
     </task>
     <servers />
   </component>
