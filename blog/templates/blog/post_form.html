@@ -5,7 +5,7 @@
         <form method="POST">
             {% csrf_token %} <!-- hidden tag CRSF token or cross-site request forgery protects against certain attacks -->
             <fieldset class="form-group">
-                <legend class="border-bottom mb-4">Recommendation Blog</legend>
+                <legend class="border-bottom mb-4">User Posts - Recommendation Blog</legend>
                 {{ form|crispy }}
             </fieldset>
             <div class="form-group">
