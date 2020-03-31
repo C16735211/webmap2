@@ -6,6 +6,7 @@ admin.site.site_header = "Location Based Services - Recommendation App"
 admin.site.site_title = "LBS Admin Recommendation App"
 admin.site.index_title = "Welcome to the Admin Area"
 
+
 class ChoiceInline(admin.TabularInline):
     model = Choice
     extra = 3

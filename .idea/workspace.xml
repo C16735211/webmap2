@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f42bb1c-5e1b-4951-aba9-9e4f13106890" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/polls/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/nouislider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/nouislider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_world_map/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_world_map/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +24,8 @@
         <option value="JavaScript File" />
         <option value="package.json" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -45,7 +41,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog/static/admin/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog/templates/blog" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -232,7 +228,7 @@
       <workItem from="1585596941765" duration="2843000" />
       <workItem from="1585599964149" duration="11000" />
       <workItem from="1585600071636" duration="69000" />
-      <workItem from="1585655512569" duration="4602000" />
+      <workItem from="1585655512569" duration="6797000" />
     </task>
     <servers />
   </component>
